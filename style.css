@@ -1,0 +1,96 @@
+.container {
+    background-color:beige;
+    padding: 20px; /* 내용물과의 간격을 주기 위한 패딩 추가 */
+    border-radius: 10px; /* 모서리를 둥글게 만듭니다. */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 가벼운 그림자 효과 추가 */
+}
+
+
+.input-group {
+    box-sizing: border-box;
+    position: relative; /* 기존의 absolute에서 relative로 변경 */
+    width: 100%; /* 가로폭을 100%로 설정하여 컨테이너에 꽉 차도록 만듭니다. */
+    height: 50px;
+    background: beige;
+    border-radius: 5px; /* 더욱 부드러운 외형을 위해 모서리를 둥글게 만듭니다. */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1); /* 약간의 그림자 효과를 추가하여 부드러운 외관을 줍니다. */
+    margin-bottom: 20px; /* 아래 여백을 추가하여 다음 요소와의 간격을 조절합니다. */
+    display: flex; /* 내부 요소들을 가로로 나열하기 위해 Flexbox를 사용합니다. */
+    align-items: center; /* 내부 요소들을 수직 정렬합니다. */
+    padding: 0 10px; /* 내부 여백을 추가하여 내용물과의 간격을 주도록 합니다. */
+}
+
+.input-group label {
+    font-size: inherit; /* 부모 요소의 폰트 크기를 상속합니다. */
+    font-weight: inherit; /* 부모 요소의 폰트 두께를 상속합니다. */
+    margin-right: 10px; /* 오른쪽 여백을 조정하여 한줄평과 독서 시작의 간격을 맞춥니다. */
+    display: flex; /* 내부 요소들을 가로로 나열합니다. */
+    align-items: center; /* 수직으로 가운데 정렬합니다. */
+}
+
+
+.main {
+    background-color: #f5f5f5; /* 더 밝은 배경색을 선택합니다. */
+    padding: 20px; /* 내용물과의 간격을 주도록 패딩을 추가합니다. */
+    border-radius: 10px; /* 모서리를 둥글게 만듭니다. */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 가벼운 그림자 효과를 추가합니다. */
+}
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.bi {
+    width: 20px;
+    height: 33px;
+    border-radius: 5px;
+}
+
+#mybooks {
+    margin: center; 
+}
+
+.btn {
+    align-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold; /* 버튼 안의 텍스트를 볼드체로 처리합니다. */
+}
+
+/* 버튼에 마우스 호버 시의 스타일링 */
+.btn:hover {
+    color: #242506;
+}
+
+#username, #password {
+    width: 100px;
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#loginButton, #registerButton {
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    background-color: #007bff; /* 배경색 지정 */
+    color: #fff; /* 텍스트 색상 지정 */
+    border: none;
+}
+
+#loginButton:hover, #registerButton:hover {
+    background-color: #0056b3; /* 호버 시 배경색 변경 */
+}
